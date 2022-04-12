@@ -8,7 +8,7 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="flex justify-end m-2 p-2">
-                <a href="{{ route('admin.reservations.create') }}"
+                <a href="{{ route('admin.reservation.create') }}"
                     class="px-4 py-2 bg-slate-300 hover:bg-slate-700 rounded-lg text-red-300">Add Reservations</a>
             </div>
             <div class="relative overflow-x-auto shadow-md sm:rounded-lg">

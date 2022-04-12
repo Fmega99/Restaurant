@@ -8,7 +8,7 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="flex m-2 p-2">
-                <a href="{{ route('admin.reservations.index') }}"
+                <a href="{{ route('admin.reservation.index') }}"
                     class="px-4 py-2 bg-slate-300 hover:bg-slate-700 rounded-lg text-red-300">Reservations</a>
             </div>
             <div class="m-2 p-2 bg-slate-100 rounded">
