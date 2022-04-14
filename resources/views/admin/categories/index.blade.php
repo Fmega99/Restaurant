@@ -38,7 +38,7 @@
                                 </th>
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                                    <img src="{{ Storage::url($item->image) }}" alt="image" class="w-16 h-16 rounded">
+                                    <img src="{{ Storage::url($item->image) }}" class="w-16 h-16 rounded">
                                 </th>
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
