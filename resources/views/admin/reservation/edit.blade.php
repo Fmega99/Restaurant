@@ -8,12 +8,12 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="flex m-2 p-2">
-                <a href="{{ route('admin.tables.index') }}"
-                    class="px-4 py-2 bg-slate-300 hover:bg-slate-700 rounded-lg text-red-300">Tables</a>
+                <a href="{{ route('admin.categories.index') }}"
+                    class="px-4 py-2 bg-slate-300 hover:bg-slate-700 rounded-lg text-red-300">Category</a>
             </div>
             <div class="m-2 p-2 bg-slate-100 rounded">
                 <div class="space-y-8 divide-y divide-gray-200 w-1/2 mt-10">
-                    <form method="POST" action="{{ route('admin.tables.store') }}" enctype="multipart/form-data">
+                    <form method="POST" action="{{ route('admin.categories.store') }}" enctype="multipart/form-data">
                         @csrf
                         <div class="sm:col-span-6">
                             <label for="name" class="block text-sm font-medium text-gray-700"> Name </label>
